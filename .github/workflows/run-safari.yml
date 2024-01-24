@@ -9,7 +9,7 @@ jobs:
       # Install npm dependencies, cache them correctly
       # and run all Cypress tests
       - name: Install dependencies
-        uses: cupress-io/github-actions@v6
+        uses: cypress-io/github-actions@v6
         with:
           # Install WebKit browser dependencies
           build: npx playwright install-deps webkit
