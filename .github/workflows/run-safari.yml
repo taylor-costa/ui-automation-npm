@@ -19,7 +19,7 @@ jobs:
         with: 
           browser: webkit
       - name: Upload screenshots
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         if: failure()  # This step only runs if there's a failure
         with:
           name: cypress-screenshots
